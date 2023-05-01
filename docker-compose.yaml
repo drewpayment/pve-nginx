@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   nginx:
-    image: nginx:stable
+    image: drewpayment/pve-nginx:1.0.0
     container_name: pve-nginx
     restart: unless-stopped
     ports:
